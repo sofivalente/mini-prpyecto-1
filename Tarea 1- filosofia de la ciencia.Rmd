@@ -8,12 +8,9 @@ output: html_document
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 ```
+## Introducción
 
-## R Markdown
-
-##Introducción
-
-##Este reporte analiza la base de datos USArrests, que contiene información de delitos en los estados unidos.
+Este reporte analiza la base de datos USArrests, que contiene información de delitos en los Estados Unidos.
 
 La base contiene `r nrow(USArrests)` filas y `r ncol(USArrests)` columnas.
 
@@ -33,7 +30,8 @@ summary(USArrests)
 #Promedio de asesinatos
 
 mean(USArrests$Murder)
-```
 
-##CONCLUSIÓN:
-##Este dataset nos permite observar diferentes indicadores relacionados con criminalidad dentro de los estados en los EEUU.
+```
+## Conclusión
+
+Este dataset nos permite observar diferentes indicadores relacionados con criminalidad dentro de los estados en los EEUU.
