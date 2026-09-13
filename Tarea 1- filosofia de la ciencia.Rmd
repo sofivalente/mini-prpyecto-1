@@ -1,0 +1,39 @@
+---
+title: "USA arrests analisis"
+author: "sofia valente"
+date: "2026-09-07"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## R Markdown
+
+##Introducción
+
+##Este reporte analiza la base de datos USArrests, que contiene información de delitos en los estados unidos.
+
+La base contiene `r nrow(USArrests)` filas y `r ncol(USArrests)` columnas.
+
+```{r, echo=FALSE}
+#Las variables que contiene son:
+names(USArrests)
+```
+
+
+```{r}
+#Resumen de datos
+
+summary(USArrests)
+```
+
+```{r}
+#Promedio de asesinatos
+
+mean(USArrests$Murder)
+```
+
+##CONCLUSIÓN:
+##Este dataset nos permite observar diferentes indicadores relacionados con criminalidad dentro de los estados en los EEUU.
