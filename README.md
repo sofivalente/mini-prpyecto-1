@@ -1,3 +1,2 @@
 # mini-prpyecto-1
-tarea filosofia de la ciencia. 
-este es el commit 1.
+este es el mini proyecto 1 que contiene el informe realizado en RMarkdown con USArrests.
